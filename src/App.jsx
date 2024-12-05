@@ -35,7 +35,7 @@ function App() {
       />
       {workout && (<Workout workout={workout} />)}
       <footer className="text-center mt-8" style={{ color: "#D1D5DB" }}>
-  Made by Rohit with <i className="fa-solid fa-heart" style={{ color: "#FF6F61" }}></i>
+  Made with <i className="fa-solid fa-heart" style={{ color: "#FF6F61" }} by Rohit></i>
 </footer>
 
 
