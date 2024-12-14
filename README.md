@@ -1,12 +1,13 @@
 # Fit Sphere
 
-**Fit Sphere** is a fitness tracking web application designed to help users monitor their workout routines, set goals, and stay consistent with their fitness journey.
+**Fit Sphere** is a React-based frontend fitness tracking web application designed to generate customized workout plans based on user inputs like workout type, target muscle groups, and objectives.
 
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Sample Output](#sample-output)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
@@ -15,17 +16,16 @@
 ---
 
 ## Features
-- **User-Friendly Dashboard**: Easy-to-navigate dashboard to track daily workouts.
-- **Workout Logging**: Log and manage workout sessions with details like exercise name, duration, and calories burned.
-- **Progress Visualization**: Graphical representation of progress over time.
-- **Goal Setting**: Define personal fitness goals and monitor progress toward achieving them.
-- **Responsive Design**: Fully responsive web app for desktop, tablet, and mobile.
+- **User Input-Based Activity Suggestions**: Get suggested workout activities based on workout type, muscle groups, and objectives.
+- **Detailed Workout Instructions**: Each activity includes specific instructions such as tempo, reps, rest time, and sets.
+- **Set Tracking**: Track the number of sets completed for each suggested workout.
+- **Responsive Design**: Designed for use across desktop, tablet, and mobile devices.
 
 ---
 
 ## Technologies Used
-- **Frontend**: React, HTML, CSS, JavaScript
-- **State Management**: React Hooks
+- **Frontend**: React.js, JavaScript, HTML, CSS
+- **State Management**: React State
 - **Version Control**: Git
 
 ---
@@ -48,7 +48,7 @@ Follow these steps to set up **Fit Sphere** locally:
    npm install
    ```
 
-4. **Start the development server**
+4. **Start the app**
    ```bash
    npm start
    ```
@@ -59,23 +59,68 @@ Follow these steps to set up **Fit Sphere** locally:
 ---
 
 ## Usage
-1. **Navigate the Dashboard**: View and manage workout logs.
-2. **Log Workouts**: Add details about exercises and monitor stats.
-3. **Track Progress**: Visualize goals and workouts over time using charts.
+1. **Select Workout Type**: Pick from options like `individual`, `bro split`, or `bodybuilder split`.
+2. **Choose Target Muscle Groups**: Select muscle groups like `push`, `pull`, or `legs`.
+3. **Set Objectives**: Define your goal, such as:
+   - **Strength Power**
+   - **Growth Hypertrophy**
+   - **Cardiovascular Endurance**
+4. **Get Workout Activities**: A detailed workout plan is generated based on your inputs, including:
+   - Exercise name
+   - Muscle group focus
+   - Reps, rest, tempo, and instructions
+5. **Track Progress**: Update completed sets for each activity.
+
+---
+
+## Sample Output
+Below is an example of the workout activities generated:
+
+### Result Example:
+
+---
+**Welcome to The DANGER Zone**
+
+1. **Dips** *(Compound)*  
+   - **Muscle Groups**: Chest & Triceps  
+   - **Instructions**: Lean forward, lower body until elbows are parallel, and press back up.
+   - **Reps**: 7 | **Rest**: 120 seconds | **Tempo**: 3 2 1
+   - **Sets Completed**: 0 / 5
+
+2. **Incline Barbell Bench Press** *(Compound)*  
+   - **Muscle Groups**: Chest  
+   - **Instructions**: Keep scapula retracted and arms at 45 degrees.
+   - **Reps**: 4 | **Rest**: 120 seconds | **Tempo**: 5 3 1
+   - **Sets Completed**: 0 / 5
+
+3. **Neutral Grip Preacher Curls** *(Compound)*  
+   - **Muscle Groups**: Biceps  
+   - **Instructions**: Perform with elbows supported and neutral grip.
+   - **Reps**: 4 | **Rest**: 120 seconds | **Tempo**: 3 2 1
+   - **Sets Completed**: 0 / 5
+
+4. **Neutral Unilateral Cable Pushdown** *(Accessory)*  
+   - **Muscle Groups**: Triceps  
+   - **Instructions**: Adjust cable, straighten arms while keeping elbows fixed.
+   - **Reps**: 9 | **Rest**: 60 seconds | **Tempo**: 2 1 1
+   - **Sets Completed**: 0 / 5
+
+5. **Unilateral Landmine Press** *(Accessory)*  
+   - **Muscle Groups**: Chest  
+   - **Instructions**: Stand at 45-degree angle, press the bar up and across your chest.
+   - **Reps**: 8 | **Rest**: 60 seconds | **Tempo**: 1 0 1
+   - **Sets Completed**: 0 / 5
 
 ---
 
 ## Screenshots
-To add screenshots:
-1. Take screenshots of your application (dashboard, features, etc.).
-2. Save them in a folder (e.g., `screenshots`) inside your project directory.
-3. Add them to the README using the following syntax:
+To add screenshots to this README:
+1. Capture relevant screenshots showcasing features like workout selection, results display, and responsiveness.
+2. Save the screenshots in the `assets` folder in your project.
+3. Add the following Markdown syntax to include them:
    ```markdown
-   ![Screenshot Title](screenshots/filename.png)
-   ```
-   Example:
-   ```markdown
-   ![Dashboard View](screenshots/dashboard.png)
+   ![Screenshot 1](assets/screenshot1.png)
+   ![Screenshot 2](assets/screenshot2.png)
    ```
 
 ---
@@ -100,23 +145,21 @@ Contributions are welcome! Here's how you can contribute:
 ---
 
 ## License
-This project is currently unlicensed. To add a license:
-1. Choose a license from [GitHub's Licensing Guide](https://choosealicense.com/).
-2. Create a `LICENSE` file in the root of your project.
-3. Copy and paste the chosen license content into the `LICENSE` file.
-4. Mention the license here in the README.
-   Example:
-   ```markdown
-   This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is not currently licensed. To add an MIT License:
+1. Run the following command in your project directory:
+   ```bash
+   npx license MIT
    ```
+2. A `LICENSE` file will be generated.
+3. Commit the `LICENSE` file to your repository.
 
 ---
 
 ## Contact
 **Rohit Mohite**
+- Email: [rohitmohite.in@gmail.com](mailto:rohitmohite.in@gmail.com)
+- LinkedIn: [Rohit Mohite](https://www.linkedin.com/in/rohit-mohite-832792232/)
 - GitHub: [iamrohitm](https://github.com/iamrohitm)
-- LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/rohit-mohite-832792232/)](#)
-- Email: [rohitmohite.in@gmail.com](#)
 
 ---
 
