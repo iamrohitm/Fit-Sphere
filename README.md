@@ -7,7 +7,6 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Sample Output](#sample-output)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
@@ -73,55 +72,9 @@ Follow these steps to set up **Fit Sphere** locally:
 
 ---
 
-## Sample Output
-Below is an example of the workout activities generated:
-
-### Result Example:
-
----
-**Welcome to The DANGER Zone**
-
-1. **Dips** *(Compound)*  
-   - **Muscle Groups**: Chest & Triceps  
-   - **Instructions**: Lean forward, lower body until elbows are parallel, and press back up.
-   - **Reps**: 7 | **Rest**: 120 seconds | **Tempo**: 3 2 1
-   - **Sets Completed**: 0 / 5
-
-2. **Incline Barbell Bench Press** *(Compound)*  
-   - **Muscle Groups**: Chest  
-   - **Instructions**: Keep scapula retracted and arms at 45 degrees.
-   - **Reps**: 4 | **Rest**: 120 seconds | **Tempo**: 5 3 1
-   - **Sets Completed**: 0 / 5
-
-3. **Neutral Grip Preacher Curls** *(Compound)*  
-   - **Muscle Groups**: Biceps  
-   - **Instructions**: Perform with elbows supported and neutral grip.
-   - **Reps**: 4 | **Rest**: 120 seconds | **Tempo**: 3 2 1
-   - **Sets Completed**: 0 / 5
-
-4. **Neutral Unilateral Cable Pushdown** *(Accessory)*  
-   - **Muscle Groups**: Triceps  
-   - **Instructions**: Adjust cable, straighten arms while keeping elbows fixed.
-   - **Reps**: 9 | **Rest**: 60 seconds | **Tempo**: 2 1 1
-   - **Sets Completed**: 0 / 5
-
-5. **Unilateral Landmine Press** *(Accessory)*  
-   - **Muscle Groups**: Chest  
-   - **Instructions**: Stand at 45-degree angle, press the bar up and across your chest.
-   - **Reps**: 8 | **Rest**: 60 seconds | **Tempo**: 1 0 1
-   - **Sets Completed**: 0 / 5
-
----
-
 ## Screenshots
-To add screenshots to this README:
-1. Capture relevant screenshots showcasing features like workout selection, results display, and responsiveness.
-2. Save the screenshots in the `assets` folder in your project.
-3. Add the following Markdown syntax to include them:
-   ```markdown
-   ![Screenshot 1](assets/screenshot1.png)
-   ![Screenshot 2](assets/screenshot2.png)
-   ```
+![Screenshot 1](src/assets/screenshot1.png)
+![Screenshot 2](src/assets/screenshot2.png)
 
 ---
 
