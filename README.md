@@ -24,9 +24,8 @@
 ---
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
+- **Frontend**: React, HTML, CSS, JavaScript
+- **State Management**: React Hooks
 - **Version Control**: Git
 
 ---
@@ -49,33 +48,35 @@ Follow these steps to set up **Fit Sphere** locally:
    npm install
    ```
 
-4. **Set up environment variables**
-   - Create a `.env` file in the root directory and add the following:
-     ```plaintext
-     PORT=3000
-     MONGODB_URI=your_mongodb_connection_string
-     ```
-
-5. **Start the server**
+4. **Start the development server**
    ```bash
    npm start
    ```
 
-6. **Access the app**
+5. **Access the app**
    - Open your browser and navigate to `http://localhost:3000`
 
 ---
 
 ## Usage
-1. **Sign Up**: Create an account to track workouts.
-2. **Log Workouts**: Add details about your exercises and monitor stats.
+1. **Navigate the Dashboard**: View and manage workout logs.
+2. **Log Workouts**: Add details about exercises and monitor stats.
 3. **Track Progress**: Visualize goals and workouts over time using charts.
-4. **Stay Consistent**: Regularly update your progress and achieve milestones.
 
 ---
 
 ## Screenshots
-> Add screenshots of your project here to showcase the user interface and features.
+To add screenshots:
+1. Take screenshots of your application (dashboard, features, etc.).
+2. Save them in a folder (e.g., `screenshots`) inside your project directory.
+3. Add them to the README using the following syntax:
+   ```markdown
+   ![Screenshot Title](screenshots/filename.png)
+   ```
+   Example:
+   ```markdown
+   ![Dashboard View](screenshots/dashboard.png)
+   ```
 
 ---
 
@@ -99,15 +100,23 @@ Contributions are welcome! Here's how you can contribute:
 ---
 
 ## License
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+This project is currently unlicensed. To add a license:
+1. Choose a license from [GitHub's Licensing Guide](https://choosealicense.com/).
+2. Create a `LICENSE` file in the root of your project.
+3. Copy and paste the chosen license content into the `LICENSE` file.
+4. Mention the license here in the README.
+   Example:
+   ```markdown
+   This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+   ```
 
 ---
 
 ## Contact
 **Rohit Mohite**
 - GitHub: [iamrohitm](https://github.com/iamrohitm)
-- LinkedIn: [Your LinkedIn Profile](#)
-- Email: [Your Email](#)
+- LinkedIn: [[Your LinkedIn Profile](https://www.linkedin.com/in/rohit-mohite-832792232/)](#)
+- Email: [rohitmohite.in@gmail.com](#)
 
 ---
 
