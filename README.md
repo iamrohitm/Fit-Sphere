@@ -73,8 +73,14 @@ Follow these steps to set up **Fit Sphere** locally:
 ---
 
 ## Screenshots
+### Main Page
 ![Screenshot 1](src/assets/screenshot1.png)
+
+### Workout Results (Steps)
 ![Screenshot 2](src/assets/screenshot2.png)
+
+### Sample Output Result
+![Screenshot 3](src/assets/screenshot3.png)
 
 ---
 
@@ -98,13 +104,7 @@ Contributions are welcome! Here's how you can contribute:
 ---
 
 ## License
-This project is not currently licensed. To add an MIT License:
-1. Run the following command in your project directory:
-   ```bash
-   npx license MIT
-   ```
-2. A `LICENSE` file will be generated.
-3. Commit the `LICENSE` file to your repository.
+This project is not currently licensed.
 
 ---
 
