@@ -104,7 +104,7 @@ Contributions are welcome! Here's how you can contribute:
 ---
 
 ## License
-This project is not currently licensed..
+This project is not currently licensed.
 
 ---
 
