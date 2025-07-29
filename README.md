@@ -116,7 +116,7 @@ This project is not currently licensed.
 
 ---
 
-*Thank you for checking out Fit Sphere! Feel free to star the repository if you find it helpful.*
+*Thank you for checking out Fit Sphere! Feel free to star the repository if you find it helpful!*
 
 ![GitHub stars](https://img.shields.io/github/stars/iamrohitm/Fit-Sphere?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/iamrohitm/Fit-Sphere?style=social)
